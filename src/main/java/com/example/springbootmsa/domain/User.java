@@ -1,6 +1,5 @@
 package com.example.springbootmsa.domain;
 
-
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -10,12 +9,11 @@ import lombok.ToString;
 @Getter
 @ToString
 @EqualsAndHashCode
-public final class Multiplication {
+public final class User {
 
-    private final int factorA;
-    private final int factorB;
+    private final String alias;
 
-    Multiplication() {
-        this(0, 0);
+    private User() {
+        alias = null;
     }
 }
